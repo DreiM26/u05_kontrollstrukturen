@@ -7,7 +7,7 @@ public class Gewinner
 
       for(int i = 1; i <= 3; i++)
       {
-         System.out.println("Hurra!");
+         System.out.println("Hurra!");git
       }
 
       System.out.println("Ich habe gewonnen!");
