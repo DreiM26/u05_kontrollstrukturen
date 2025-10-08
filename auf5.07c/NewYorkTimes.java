@@ -17,12 +17,13 @@ public class NewYorkTimes
          {
             if (faktor == 21 || faktor == 23 || faktor == 25)
             {
+
              System.out.println("");              
              System.out.printf("Enter No %d\n",faktor);
-               
      
                for(int i = 0; i <=2; i++)
                {
+
                   System.out.printf("Delivered in No %d, floor %d\n", faktor, i);
                   
                }
@@ -30,9 +31,11 @@ public class NewYorkTimes
          }
 
          System.out.println("");
+
          System.out.println("----------------------------");
 
       }
+
       System.out.println("");
    }
 }
