@@ -7,6 +7,7 @@ public class Wochenblatt
    {
       System.out.println("");
       System.out.println("Zustellung Wochenblatt");
+      System.out.println("");
 
       for(int faktor = 5; faktor <= 7; faktor++)
       {
@@ -17,6 +18,7 @@ public class Wochenblatt
          {
             System.out.printf("Zugestellt in Nr %d, %d.Stock\n",faktor,i);
          }
+         System.out.println("");
          
       }
    }
