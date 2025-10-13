@@ -28,7 +28,7 @@ public class BreakEvenPoint
 
       for(int i = 1 ; i <= maxstueckzahl ; i++)
       {
-         System.out.printf("Stueckzahl: %d  Gesamtkosten: %d   Erloes: %d   Ueberschuss: %d\n ", i, fixkosten + ((rohstoffkosten + arbeitskosten)*i) , verkaufspreis*i, ueberschuss);
+         System.out.printf("Stueckzahl: %d  Gesamtkosten: %d   Erloes: %d   Ueberschuss: %d\n ", i, fixkosten + ((rohstoffkosten + arbeitskosten)*i) , verkaufspreis*i, verkaufspreis*i - (fixkosten + ((rohstoffkosten + arbeitskosten)*i)));
       }
    }
 }
