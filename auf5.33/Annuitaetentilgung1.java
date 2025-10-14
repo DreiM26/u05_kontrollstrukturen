@@ -5,9 +5,9 @@ public class Annuitaetentilgung1
 {
 	public static void main(String [] args)
 	{
-		int restschuld = 5000;
-      int zinssatz   = 6;
-		int annuitaet  = 1000;
+		int restschuld = 1735;
+      int zinssatz   = 10;
+		int annuitaet  = 999;
 		int jahr = 1;
       // int laufzeit  = 5;
 
